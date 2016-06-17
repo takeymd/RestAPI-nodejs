@@ -1,0 +1,24 @@
+{
+  "name": "cultish-api",
+  "version": "1.0.0",
+  "description": "Node.js API server for cultish mobile app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "yoshiro masaki <yoshiro.masaki@hotmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.3.16",
+    "body-parser": "^1.15.1",
+    "busboy-body-parser": "0.0.10",
+    "cloudinary": "^1.3.1",
+    "express": "^4.13.4",
+    "google-id-token-verifier": "^0.1.2",
+    "lodash": "^4.12.0",
+    "moment": "^2.13.0",
+    "mongodb": "^2.1.19",
+    "mongoskin": "^2.1.0"
+  }
+}
